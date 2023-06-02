@@ -646,9 +646,6 @@ body {
 }
 
 .modal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-left: 536px;
   margin-right: 536px;
   background-color: #ffffff;
