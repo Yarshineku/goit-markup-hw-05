@@ -668,6 +668,9 @@ body {
 }
 
 .button-close {
+  position: relative;
+  top: 9px;
+  right: 80%;
   width: 30px;
   height: 30px;
   background-color: #ffffff;
