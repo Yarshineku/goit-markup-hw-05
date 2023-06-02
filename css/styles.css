@@ -59,14 +59,13 @@ body {
   text-decoration: none;
 }
 .link::after {
-  content: var(--brand-color);
+  content: "";
   background: #2196f3;
   border-radius: 2px;
+  width: 58px;
+  height: 4px;
 }
-.link:hover::after {
-  background: #2196f3;
-  border-radius: 2px;
-}
+
 .link-tel-1 {
   color: #757575;
   display: flex;
@@ -655,6 +654,8 @@ body {
 }
 
 .modal {
+  width: 528px;
+  height: 581px;
   margin-left: 536px;
   margin-right: 536px;
   margin-top: 221px;
