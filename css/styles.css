@@ -658,11 +658,8 @@ body {
 }
 
 .button-close {
-  position: absolute;
   width: 30px;
   height: 30px;
-  top: 8px;
-  right: 8px;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
