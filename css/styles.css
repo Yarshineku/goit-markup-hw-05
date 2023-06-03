@@ -678,6 +678,8 @@ body {
   width: 100%;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
 }
 .frazes {
   position: absolute;
