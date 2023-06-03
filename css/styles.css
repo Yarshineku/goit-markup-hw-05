@@ -717,4 +717,5 @@ body {
   border-radius: 2px;
   width: 53px;
   height: 4px;
+  display: block;
 }
