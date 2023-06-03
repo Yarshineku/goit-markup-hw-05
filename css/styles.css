@@ -702,4 +702,5 @@ body {
 }
 .tag-list {
   position: relative;
+  display: flex;
 }
