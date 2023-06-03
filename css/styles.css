@@ -350,8 +350,6 @@ body {
 .agency {
   color: #212121;
   padding-left: 93px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   padding-right: 46px;
   text-decoration: none;
 }
@@ -359,8 +357,6 @@ body {
 .portfolio {
   color: #212121;
   padding-left: 46px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   padding-right: 46px;
   text-decoration: none;
 }
@@ -368,8 +364,6 @@ body {
 .contact {
   color: #212121;
   padding-left: 46px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   text-decoration: none;
 }
 
