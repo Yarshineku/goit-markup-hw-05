@@ -632,6 +632,8 @@ body {
 }
 
 .backdrop {
+  display: flex;
+  align-items: center;
   position: fixed;
   width: 1600px;
   height: 100%;
@@ -650,8 +652,6 @@ body {
 }
 
 .modal {
-  display: flex;
-  align-items: center;
   width: 528px;
   height: 581px;
   margin-left: 536px;
