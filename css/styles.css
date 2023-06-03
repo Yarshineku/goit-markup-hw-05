@@ -701,8 +701,8 @@ body {
 
 .underscore {
   position: relative;
-  top: 225%;
-  left: 47%;
+  top: 40px;
+  left: 49%;
 }
 
 .underscore::after {
