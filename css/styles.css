@@ -705,7 +705,21 @@ body {
   left: 49%;
 }
 
+.underscore-portfolio {
+  position: relative;
+  top: 40px;
+  left: 32%;
+}
+
 .underscore::after {
+  content: "";
+  background: #2196f3;
+  border-radius: 2px;
+  width: 53px;
+  height: 4px;
+  display: block;
+}
+.underscore-portfolio::after {
   content: "";
   background: #2196f3;
   border-radius: 2px;
