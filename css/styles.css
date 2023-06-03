@@ -705,6 +705,12 @@ body {
   display: flex;
 }
 
+.underscore {
+  position: relative;
+  top: 225%;
+  left: 47%;
+}
+
 .underscore::after {
   content: "";
   background: #2196f3;
