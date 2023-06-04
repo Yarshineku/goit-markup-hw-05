@@ -739,7 +739,7 @@ body {
   transform: translateY(100%);
   bottom: 0;
 }
-.cover:hover {
+.cover:hover .animation-cover {
   transform: translateY(0);
 }
 
