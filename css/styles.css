@@ -739,11 +739,12 @@ body {
   transform: translateY(100%);
   bottom: 0;
 }
-.cover:hover,
+.cover:hover {
+  transform: translateY(0);
+}
 .animation-cover {
   transform: translateY(0);
 }
-
 .cover-text {
   font-family: "Roboto";
   font-style: normal;
