@@ -430,6 +430,7 @@ body {
   margin: 0 auto;
   height: 404px;
   width: 370px;
+  bottom: 94px;
 }
 
 .portfolio-boxes:hover,
