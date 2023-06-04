@@ -738,14 +738,12 @@ body {
 }
 
 .cover-text {
-  width: 301px;
-  height: 196px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  padding: 24px, 49px;
+  padding: 24px 49px;
   letter-spacing: 0.03em;
 
   color: #ffffff;
