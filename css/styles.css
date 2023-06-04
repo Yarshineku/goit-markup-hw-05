@@ -779,8 +779,10 @@ body {
 
 .cover {
   position: absolute;
-  width: 370px;
-  height: 294px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   background: rgba(33, 150, 243, 0.9);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -789,8 +791,7 @@ body {
   backdrop-filter: blur(1.5px);
   z-index: 0;
 }
-.cover:hover,
-.cover:focus {
+.animation-cover:hover .cover {
   transform: translateY(0%);
   visibility: visible;
 }
