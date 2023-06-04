@@ -740,7 +740,7 @@ body {
   bottom: 0;
 }
 .cover:hover {
-  transform: translateY(0%);
+  transform: translateY(0);
 }
 
 .cover-text {
