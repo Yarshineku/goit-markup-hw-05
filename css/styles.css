@@ -440,6 +440,7 @@ body {
 .portfolio-boxes:focus {
   box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  transform: translate3d(5px, 5px, 5px);
 }
 
 .box-description {
@@ -745,9 +746,6 @@ body {
   backdrop-filter: blur(1.5px);
 }
 .cover:hover {
-  transform: translateY(0);
-}
-.animation-cover:hover {
   transform: translateY(0);
 }
 
