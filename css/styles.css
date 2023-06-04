@@ -788,18 +788,13 @@ body {
   bottom: 0.6%;
   backdrop-filter: blur(1.5px);
   z-index: 0;
-  visibility: hidden;
 }
 .cover:hover,
 .cover:focus {
   transform: translateY(0%);
   visibility: visible;
 }
-.animation-cover:hover,
-.animation-cover:focus {
-  transform: translateY(0%);
-  visibility: visible;
-}
+
 .cover-text {
   font-family: "Roboto";
   font-style: normal;
