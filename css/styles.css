@@ -170,6 +170,7 @@ body {
   letter-spacing: 0.06em;
   padding-left: 24px;
   padding-right: 24px;
+  margin-bottom: auto;
 }
 
 .portfolio-box-topic:hover,
