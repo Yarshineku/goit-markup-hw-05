@@ -141,8 +141,8 @@ body {
   display: flex;
   margin-left: 100px;
 }
-.e-mail:hover,
-.e-mail:focus .envelope-icon {
+.envelope-icon:hover,
+.envelope-icon:focus .e-mail {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -484,13 +484,6 @@ body {
 .envelope-icon {
   margin-right: 10px;
   color: #757575;
-}
-
-.envelope-icon:hover,
-.envelope-icon:focus {
-  fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-smartphone {
