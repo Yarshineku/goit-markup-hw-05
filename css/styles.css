@@ -795,7 +795,11 @@ body {
   transform: translateY(0%);
   visibility: visible;
 }
-
+.animation-cover:hover,
+.animation-cover:focus {
+  transform: translateY(0%);
+  visibility: visible;
+}
 .cover-text {
   font-family: "Roboto";
   font-style: normal;
