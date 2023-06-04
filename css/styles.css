@@ -754,6 +754,8 @@ body {
 .cover:hover {
   transform: translateY(0);
 }
+.section-animation :hover {
+}
 
 .cover-text {
   font-family: "Roboto";
