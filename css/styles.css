@@ -784,10 +784,13 @@ body {
   transform: translateY(100%);
   bottom: 0.6%;
   backdrop-filter: blur(1.5px);
+  z-index: 0;
+  visibility: hidden;
 }
-.cover:hover,
-.section-animation:hover {
+.cover:hover .cover:focus,
+.section-animation:hover .section-animation:focus {
   transform: translateY(0);
+  visibility: visible;
 }
 
 .cover-text {
