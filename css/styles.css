@@ -787,9 +787,12 @@ body {
   z-index: 0;
   visibility: hidden;
 }
-.cover:hover .cover:focus,
+.cover:hover .cover:focus {
+  transform: translateY(0%);
+  visibility: visible;
+}
 .section-animation:hover .section-animation:focus {
-  transform: translateY(0);
+  transform: translateY(0%);
   visibility: visible;
 }
 
