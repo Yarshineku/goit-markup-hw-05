@@ -738,7 +738,7 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
-  bottom: 0;
+  bottom: 0.6%;
   backdrop-filter: blur(1.5px);
 }
 .cover:hover {
