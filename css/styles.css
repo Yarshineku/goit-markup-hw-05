@@ -443,6 +443,7 @@ body {
   color: #ffffff;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translate3d(3px, 3px, 3px);
 }
 
 .portfolio-list-boxes {
@@ -714,7 +715,6 @@ body {
 }
 
 .button-close {
-  box-sizing: border-box;
   position: relative;
   top: 8px;
   left: 90%;
@@ -723,6 +723,7 @@ body {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  border-radius: 25px;
 }
 
 .tag {
