@@ -791,10 +791,6 @@ body {
   transform: translateY(0%);
   visibility: visible;
 }
-.section-animation:hover .section-animation:focus {
-  transform: translateY(0%);
-  visibility: visible;
-}
 
 .cover-text {
   font-family: "Roboto";
