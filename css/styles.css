@@ -201,6 +201,12 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+.header-links:hover,
+.header-links:focus {
+  color: var(--brand-color, #2196f3);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .ul-navigation {
   list-style: none;
   display: flex;
@@ -710,7 +716,7 @@ body {
 .button-close {
   box-sizing: border-box;
   position: relative;
-  top: 9px;
+  top: 8px;
   left: 90%;
   width: 30px;
   height: 30px;
