@@ -543,6 +543,8 @@ body {
 .icon-clients-background:focus,
 .icon-clients-background:hover {
   border: 1px #2196f3 solid;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-clients-background:focus > .client-logo,
@@ -588,6 +590,8 @@ body {
 .footer-social-icons:hover,
 .footer-social-icons:focus {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon {
