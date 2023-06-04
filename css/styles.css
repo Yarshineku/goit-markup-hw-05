@@ -70,6 +70,8 @@ body {
 .link-tel-1:hover,
 .link-tel-1:focus {
   color: var(--brand-color, #2196f3);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-tel-2 {
   color: #757575;
@@ -78,10 +80,14 @@ body {
 .link-tel-2:hover,
 .link-tel-2:focus {
   color: var(--brand-color, #2196f3);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link:hover,
 .link:focus {
   color: var(--brand-color, #2196f3);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button {
   color: #ffffff;
@@ -91,6 +97,8 @@ body {
 .button:focus {
   color: var(--brand-color, #2196f3);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-primary {
   width: 200px;
@@ -136,6 +144,8 @@ body {
 .e-mail:hover,
 .e-mail:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .paragraph-text {
   color: #757575;
@@ -166,6 +176,8 @@ body {
 .portfolio-box-topic:focus {
   color: #2196f3;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-2 {
@@ -255,6 +267,8 @@ body {
 .e-mail-footer:hover,
 .e-mail-footer:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .img-what-we-do {
@@ -370,16 +384,22 @@ body {
 .agency:hover,
 .agency:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio:hover,
 .portfolio:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
 .contact:focus {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-buttons {
@@ -459,6 +479,8 @@ body {
 .envelope-icon:hover,
 .envelope-icon:focus {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-smartphone {
@@ -469,6 +491,8 @@ body {
 .icon-smartphone:hover,
 .icon-smartphone:focus {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .our-clients {
@@ -552,6 +576,8 @@ body {
 .icon-clients-background:focus > .client-logo,
 .icon-clients-background:hover > .client-logo {
   fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-logo {
@@ -625,13 +651,19 @@ body {
 .social-icons-links-team:hover > .social-icon-team,
 .social-icons-links-team:focus > .social-icon-team {
   fill: #fff;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-links-team:hover {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icons-links-team:focus {
   background-color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .two-footer-box {
