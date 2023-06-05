@@ -154,7 +154,10 @@ body {
   stroke: currentColor;
   fill: currentColor;
 }
-
+.icon:hover,
+.icon:focus {
+  color: #2196f3;
+}
 a:hover,
 a:focus {
   color: #2196f3;
