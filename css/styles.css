@@ -157,7 +157,7 @@ body {
 
 a:hover,
 a:focus {
-  color: var(--blue-color);
+  color: #2196f3;
 }
 
 .paragraph-text {
