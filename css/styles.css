@@ -147,12 +147,19 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.envelope-icon:hover,
-.envelope-icon:focus .e-mail {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+.icon {
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
+
+a:hover,
+a:focus {
+  color: var(--blue-color);
+}
+
 .paragraph-text {
   color: #757575;
   cursor: pointer;
@@ -207,12 +214,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.header-links:hover,
-.header-links:focus {
-  color: var(--brand-color, #2196f3);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .ul-navigation {
   list-style: none;
   display: flex;
@@ -490,6 +492,10 @@ body {
 .envelope-icon {
   margin-right: 10px;
   color: #757575;
+  display: inline-block;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 .envelope-icon:hover,
