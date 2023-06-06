@@ -142,7 +142,7 @@ body {
   margin-left: 100px;
 }
 .e-mail:hover,
-.e-mail:focus .envelope-icon {
+.e-mail:focus + .envelope-icon {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
