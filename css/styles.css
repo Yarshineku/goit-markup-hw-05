@@ -141,12 +141,6 @@ body {
   display: flex;
   margin-left: 100px;
 }
-.icon:hover,
-.icon:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .icon {
   margin-right: 10px;
@@ -163,8 +157,10 @@ a {
 }
 
 a:hover,
-a:focus {
+a:focus .icon {
   color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .paragraph-text {
