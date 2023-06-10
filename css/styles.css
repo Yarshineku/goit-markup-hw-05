@@ -155,8 +155,8 @@ a {
   text-decoration: none;
 }
 
-a:focus,
-a:hover .icon {
+a:hover,
+a:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
