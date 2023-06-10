@@ -154,7 +154,10 @@ a {
   color: #757575;
   text-decoration: none;
 }
-
+.icon:hover,
+.icon:focus {
+  color: #2196f3;
+}
 a:hover,
 a:focus .icon {
   color: #2196f3;
