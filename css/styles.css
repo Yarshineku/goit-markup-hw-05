@@ -143,19 +143,21 @@ body {
 }
 
 .icon {
+  margin-right: 10px;
   color: #757575;
   display: inline-block;
   stroke-width: 0;
   stroke: currentColor;
   fill: currentColor;
+  text-decoration: none;
 }
 a {
   color: #757575;
   text-decoration: none;
 }
 
-a:hover,
-a:focus .icon:hover .icon:focus {
+a:hover .icon,
+a:focus .icon {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
