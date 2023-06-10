@@ -59,7 +59,7 @@ body {
   text-decoration: none;
 }
 
-. {
+.link-tel-1 {
   color: #757575;
   display: flex;
   text-decoration: none;
@@ -67,7 +67,8 @@ body {
   font-weight: 500;
   letter-spacing: 0.02em;
 }
- {
+.link-tel-1:hover,
+.link-tel-1:focus .icon-smartphone {
   color: var(--brand-color, #2196f3);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,7 +77,8 @@ body {
   color: #757575;
   text-decoration: none;
 }
- {
+.link-tel-2:hover,
+.link-tel-2:focus {
   color: var(--brand-color, #2196f3);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -131,13 +133,19 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-. {
+.e-mail {
   color: #757575;
   text-decoration: none;
   justify-content: flex-start;
   align-items: center;
   display: flex;
   margin-left: 100px;
+}
+.envelope-icon:hover,
+.envelope-icon:focus .e-mail {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon {
