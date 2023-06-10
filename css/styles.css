@@ -155,8 +155,7 @@ a {
 }
 
 a:hover,
-a:focus .icon {
-  background: #2196f3;
+a:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
