@@ -157,6 +157,10 @@ body {
   fill: currentColor;
   text-decoration: none;
 }
+a {
+  background: #757575;
+  text-decoration: none;
+}
 
 a:hover,
 a:focus {
