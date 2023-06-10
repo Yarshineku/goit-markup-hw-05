@@ -509,9 +509,7 @@ a:focus {
   margin-right: 10px;
   color: #757575;
 }
-
-.icon-smartphone:hover,
-.icon-smartphone:focus {
+ {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
