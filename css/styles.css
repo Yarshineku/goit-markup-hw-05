@@ -156,11 +156,11 @@ a {
 }
 .icon:hover,
 .icon:focus {
-  color: #2196f3;
-}
-a:hover .icon,
-a:focus .icon {
   fill: #2196f3;
+}
+a:hover,
+a:focus {
+  color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
