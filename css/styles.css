@@ -158,7 +158,7 @@ a {
 .icon:focus {
   fill: #2196f3;
 }
-a:hover .icon,
+a:hover,
 a:focus .icon {
   color: #2196f3;
   transition-duration: 250ms;
