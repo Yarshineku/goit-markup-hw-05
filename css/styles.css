@@ -145,9 +145,6 @@ body {
 .icon {
   color: #757575;
   margin-right: 10px;
-  display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
   fill: currentColor;
 }
 a {
